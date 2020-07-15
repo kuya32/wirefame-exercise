@@ -62,19 +62,34 @@ main > article > * {
 }
 
 main > article > section {
+  font-family: Helvetica;
   box-sizing: border-box;
   padding: 0px 0px 0px 30px;
+}
+
+main > article > section > h1 {
+  font-size: 18px;
+  margin: 0px 0px 8px 0px;
 }
 
 main > article > section > p {
   height: 300px;
   overflow: auto;
+  margin: 0px 0px 8px 0px;
+  font-style: italic;
 }
 
 footer {
-  height: 90px;
+  height: 110px;
   background-color: rgb(58, 58, 58);
   margin: 30px 0px 0px 0px;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  padding: 8px 30px 8px 30px;
 }
 
 button:hover {
